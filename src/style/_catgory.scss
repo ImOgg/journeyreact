@@ -1,0 +1,43 @@
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+
+  ul {
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+    transform: translateY(-60%);
+    background-color: $text-color;
+    box-shadow: $box-shadwo;
+    border-radius: $border-radius;
+
+    li {
+      flex: 0 0 20%;
+      padding: 4px;
+      text-align: center;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        &:hover {
+          color: $main-color;
+        }
+      }
+
+      h3 {
+        font-weight: 400;
+      }
+
+      span {
+        font-size: 40px;
+      }
+
+     
+    }
+
+  }
+}
